@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --color-sea-blue: #0077b6;
+  --color-sea-blue-dark: #023e8a;
+}
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-white text-sea-blue-dark font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    @apply text-sea-blue transition-colors hover:opacity-80;
+  }
+}
+
+/* Custom utility */
+@layer utilities {
+  .card {
+    @apply bg-white shadow-md rounded-lg p-4 border border-gray-100;
+  }
+}
