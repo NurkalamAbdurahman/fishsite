@@ -1,5 +1,3 @@
----
-
 # 🐟 FishSite - Premium Ornamental Fish Landing Page
 
 **FishSite** adalah landing page modern yang dirancang khusus untuk konversi penjualan ikan hias premium. Website ini dibangun menggunakan **React (Vite)** dan **Tailwind CSS**, dengan manajemen konten dinamis yang terintegrasi langsung dengan **Contentful CMS**.
