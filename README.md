@@ -1,5 +1,3 @@
-Berikut adalah draft **README.md** yang profesional, terstruktur, dan siap pakai untuk repository GitHub kamu. File ini mencakup semua spesifikasi teknis, desain, dan konfigurasi CMS yang telah kamu tentukan.
-
 ---
 
 # 🐟 FishSite - Premium Ornamental Fish Landing Page
